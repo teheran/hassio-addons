@@ -18,5 +18,5 @@
     "username": "str",
     "password": "str"
   },
-  "image": "mcr.microsoft.com/dotnet/core/samples:aspnetapp"
+  "image": "mcr.microsoft.com/dotnet/core/samples"
 }
