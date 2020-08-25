@@ -1,6 +1,6 @@
 {
   "name": "mariner",
-  "version": "0.4",
+  "version": "aspnetapp",
   "slug": "mariner",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "description": "Sync config files over sftp",
