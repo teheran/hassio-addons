@@ -3,9 +3,11 @@
   "version": "dotnetapp",
   "slug": "mariner",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-  "description": "Sync config files over sftp",
+  "description": "mariner description",
   "url": "https://github.com/teheran/mrnr",
   "startup": "once",
   "boot": "manual",
+  "options": {},
+  "schema": {},  
   "image": "mcr.microsoft.com/dotnet/core/samples"
 }
