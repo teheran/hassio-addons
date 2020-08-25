@@ -1,0 +1,22 @@
+{
+  "name": "mariner",
+  "version": "0.4",
+  "slug": "mariner",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "description": "Sync config files over sftp",
+  "url": "https://github.com/teheran/mrnr",
+  "startup": "once",
+  "boot": "manual",
+  "map": ["config"],
+  "options": {
+    "target": null,
+    "username": null,
+    "password": ""
+  },
+  "schema": {
+    "target": "url",
+    "username": "str",
+    "password": "str"
+  },
+  "image": "mcr.microsoft.com/dotnet/core/samples:aspnetapp"
+}
