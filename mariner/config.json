@@ -7,6 +7,9 @@
   "url": "https://github.com/teheran/mrnr",
   "startup": "once",
   "boot": "manual",
+  "services": [
+    "mqtt:want"
+  ],
   "options": {},
   "schema": {},  
   "image": "mcr.microsoft.com/dotnet/core/samples"
