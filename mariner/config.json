@@ -7,16 +7,5 @@
   "url": "https://github.com/teheran/mrnr",
   "startup": "once",
   "boot": "manual",
-  "map": ["config"],
-  "options": {
-    "target": null,
-    "username": null,
-    "password": ""
-  },
-  "schema": {
-    "target": "url",
-    "username": "str",
-    "password": "str"
-  },
   "image": "mcr.microsoft.com/dotnet/core/samples"
 }
