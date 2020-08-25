@@ -1,6 +1,6 @@
 {
   "name": "mariner",
-  "version": "aspnetapp",
+  "version": "dotnetapp",
   "slug": "mariner",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "description": "Sync config files over sftp",
