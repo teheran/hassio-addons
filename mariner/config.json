@@ -8,13 +8,13 @@
   "startup": "once",
   "boot": "manual",
   "services": [
-    "mqtt:want",
+    "mqtt:want"
   ],
   "options": {
-    "Home Assistant MQTT Discovery": true,
+    "Home Assistant MQTT Discovery": true
   },
   "schema": {
-    "Home Assistant MQTT Discovery": "bool",
+    "Home Assistant MQTT Discovery": "bool"
   },  
   "image": "mcr.microsoft.com/dotnet/core/samples"
 }
