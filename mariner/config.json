@@ -1,6 +1,6 @@
 {
   "name": "mariner",
-  "version": "dotnetapp",
+  "version": "latest",
   "slug": "mariner",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "description": "mariner description",
@@ -16,5 +16,5 @@
   "schema": {
     "Home Assistant MQTT Discovery": "bool"
   },  
-  "image": "mcr.microsoft.com/dotnet/core/samples"
+  "image": "teheran/mariner"
 }
