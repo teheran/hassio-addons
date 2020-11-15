@@ -1,0 +1,20 @@
+{
+  "name": "mariner",
+  "version": "latest",
+  "slug": "mariner",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "description": "mariner description",
+  "url": "https://github.com/teheran/mrnr",
+  "startup": "once",
+  "boot": "manual",
+  "services": [
+    "mqtt:want"
+  ],
+  "options": {
+    "Home Assistant MQTT Discovery": true
+  },
+  "schema": {
+    "Home Assistant MQTT Discovery": "bool"
+  },  
+  "image": "teheran/mariner"
+}
