@@ -1,5 +1,5 @@
 {
-  "name": "MRNR example add-on repository",
-  "url": "https://github.com/teheran/mrnr",
-  "maintainer": "HomeAssistant <info@home-assistant.io>"
+  "name": "My dev add-on repository",
+  "url": "https://github.com/teheran/hassio-addons",
+  "maintainer": "Dmitry Korotin <HIDDEN@gmail.com>"
 }
