@@ -1,11 +1,11 @@
 {
   "name": "dotnet",
-  "version": "0.0.3",
+  "version": "0.0.7",
   "slug": "dotnet",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "description": "dotnet description",
   "url": "https://github.com/teheran/hassio-addons/tree/master/dotnet",
-  "startup": "once",
+  "startup": "application",
   "boot": "auto",
   "stage": "experimental",
   "services": [
