@@ -7,8 +7,9 @@
   "url": "https://github.com/teheran/hassio-addons/tree/master/dotnet",
   "startup": "once",
   "boot": "manual",
+  "stage": "experimental",
   "services": [
-    "mqtt:want"
+    "mqtt:need"
   ],
   "options": {
     "Home Assistant MQTT Discovery": true
