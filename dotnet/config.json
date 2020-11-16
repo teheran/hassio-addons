@@ -3,10 +3,10 @@
   "version": "0.0.2",
   "slug": "dotnet",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-  "description": "mariner description",
+  "description": "dotnet description",
   "url": "https://github.com/teheran/hassio-addons/tree/master/dotnet",
   "startup": "once",
-  "boot": "manual",
+  "boot": "auto",
   "stage": "experimental",
   "services": [
     "mqtt:need"
