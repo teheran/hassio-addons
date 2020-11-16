@@ -1,6 +1,6 @@
 {
   "name": "dotnet",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "slug": "dotnet",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "description": "mariner description",
