@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections;
+using System.IO;
 using System.Threading;
 
 namespace mariner
@@ -10,6 +11,10 @@ namespace mariner
         {
             foreach(DictionaryEntry ev in Environment.GetEnvironmentVariables()) {
                 Console.WriteLine($"{ev.Key} = {ev.Value}");
+            }
+
+            using(var opt = File.OpenText("/data/options.json")) {
+                Console.WriteLine(opt.ReadToEnd());
             }
 
             while(true) {
