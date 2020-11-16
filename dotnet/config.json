@@ -1,13 +1,13 @@
 {
   "name": "dotnet",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "slug": "dotnet",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "description": "dotnet description",
   "url": "https://github.com/teheran/hassio-addons/tree/master/dotnet",
   "startup": "application",
   "boot": "auto",
-  "stage": "deprecated",
+  "stage": "experimental",
   "services": [
     "mqtt:need"
   ],
