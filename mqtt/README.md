@@ -1,7 +1,7 @@
 # mrnr proto mqtt
 
 Sample MQTT client written in Rust (by Alex Helfet) and packed as HASS add-on by me.
-- Build on demand on deployment.
+- Build on demand on deployment on any supported architecture (tested on RPi 4 & x64).
 - Discover MQTT connection parameters on startup.
 - Debian based Home Assistant Base Image (glibc client req).
 - Publish static payload "42" on "homeassistant/sensor/sensorBedroomT/state" topic.
