@@ -7,6 +7,7 @@ Sample MQTT client written in Rust (by Alex Helfet) and packed as HASS add-on by
 - Publish static payload "42" on "homeassistant/sensor/sensorBedroomT/state" topic.
 
 Thanks to:
-- [MQTT client](https://github.com/fluffysquirrels/mqtt-async-client-rs) 
-- [Add-on base](https://github.com/hassio-addons/addon-base)
-- [Base images](https://github.com/home-assistant/docker-base)
+- [MQTT Client](https://github.com/fluffysquirrels/mqtt-async-client-rs) 
+- [Add-on Docs](https://developers.home-assistant.io/docs/add-ons)
+- [Add-on Base](https://github.com/hassio-addons/addon-base)
+- [Base Images](https://github.com/home-assistant/docker-base)
