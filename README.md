@@ -1,1 +1,3 @@
 # Toy add-ons of mine for HASS.
+
+To play with add this repository to HAAS Add-on Store...
