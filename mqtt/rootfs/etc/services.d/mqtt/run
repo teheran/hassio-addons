@@ -1,0 +1,28 @@
+#!/usr/bin/with-contenv bashio
+# ==============================================================================
+# Runs the server
+# ==============================================================================
+declare -a options
+declare config_path
+
+if bashio::config.has_value 'config_path'; then
+    config_path=$(bashio::config 'config_path')
+    if ! bashio::fs.directory_exists "${config_path}"; then
+        bashio::exit.nok "Configured config path does not exists"
+    fi
+fi
+
+# Ensure dependent MQTT service available
+if ! bashio::services.available "mqtt"; then
+  bashio::exit.nok "Dependent MQTT service unavailable."
+fi
+
+bashio::log.info 'Dependent MQTT service available.'
+options+=(--host $(bashio::services "mqtt" "host"))
+options+=(--port $(bashio::services "mqtt" "port"))
+options+=(--username $(bashio::services "mqtt" "username"))
+options+=(--password $(bashio::services "mqtt" "password")) 
+
+exec mqttc "${options[@]}" "publish" "homeassistant/sensor/sensorBedroomT/state" 42
+
+echo "exec exited"

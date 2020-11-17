@@ -1,0 +1,21 @@
+{
+  "name": "dotnet",
+  "version": "0.0.38",
+  "slug": "dotnet",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "description": "dotnet description",
+  "url": "https://github.com/teheran/hassio-addons/tree/master/dotnet",
+  "hassio_api": true,
+  "services": [
+    "mqtt:need"
+  ],
+  "startup": "application",
+  "boot": "auto",
+  "stage": "experimental",
+  "options": {
+    "Home Assistant MQTT Discovery": true
+  },
+  "schema": {
+    "Home Assistant MQTT Discovery": "bool"
+  }
+}
