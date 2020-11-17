@@ -3,7 +3,7 @@
   "version": "0.0.38",
   "slug": "mqtt",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
-  "description": "dotnet description",
+  "description": "mrnr proto mqtt",
   "url": "https://github.com/teheran/hassio-addons/tree/master/mqtt",
   "hassio_api": true,
   "services": [
